@@ -37,12 +37,9 @@ console.log(summ);
 // task 1.4
 
 var arr = [0, 0, 0, 1, 3, 2, 5];
- var sum = 0;
- for (var i = 0; i < arr.length; i++){
-  		sum+= arr[i];
-
- }
- 	var result = (sum / arr.length);
-  	result = result.toFixed(2);
-
-console.log(result);
+var result = arr.reduce(function(sum, current) {
+  return sum + current;
+}, 0);
+var sr = (result / arr.length);
+		sr = sr.toFixed(2);
+console.log(sr)
