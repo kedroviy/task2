@@ -54,3 +54,15 @@ var arr = [0, 0, 0, 8, 1, 3, 2, 5, 4]
 				console.log ( i )
 
 }
+
+// task 4
+
+
+
+str = "obirvalg"
+function reverseStr(str) {
+	var t = str
+	return str.split("").reverse().join("");
+  }
+
+	console.log(reverseStr(str));
