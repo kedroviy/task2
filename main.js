@@ -6,26 +6,13 @@ console.log(arr);
 // task 1.1
 
 var arr = [0, 0, 0, 1, 3, 2, 5];
-
-var value = arr.reduce (function(a,b){
-
-	return Math.max(a, b)
-  });
-
-
-	console.log(value)
+console.log(Math.max.apply(null, arr))
 
 // task 1.2
 
 var arr = [0, 0, 0, 1, 3, 2, 5];
+console.log(Math.min.apply(null, arr))
 
-var value = arr.reduce (function(a,b){
-
-	return Math.min(a, b)
-  });
-
-
-	console.log(value)
 
 // task 1.3
 
