@@ -9,13 +9,11 @@ var arr = [0, 0, 0, 1, 3, 2, 5];
 
 var value = arr.reduce (function(a,b){
 
-	return Math.max(a, b) 
+	return Math.max(a, b)
   });
 
 
 	console.log(value)
-
-
 
 // task 1.2
 
@@ -28,6 +26,7 @@ var value = arr.reduce (function(a,b){
 
 
 	console.log(value)
+
 // task 1.3
 
 var arr = [0, 0, 0, 1, 3, 2, 5];
@@ -46,12 +45,12 @@ var sr = (result / arr.length);
 		sr = sr.toFixed(2);
 console.log(sr);
 
+// task 1.5
 
-var arr = [0, 0, 0, 1, 3, 2, 5]
+var arr = [0, 0, 0, 8, 1, 3, 2, 5, 4]
 
- // function maxValue(){
- 	var sortir = arr.sort();
-  var max =
+		 for (var i = 0; i <= 10; i++)
+  		if (i % 2 == 0) {
+				console.log ( i )
 
-console.log(maxValue);
-};
+}
