@@ -24,7 +24,7 @@ console.log(summ);
 
 // task 1.4
 
-var arr = [2,	1,	1,	2,	2,	2,	0,	0,	2,	0];
+var arr = [2,	6,	5,	2,	3,	2,	12,	1,	2,	4];
 var result = arr.reduce(function(sum, current) {
   return sum + current;
 }, 0);
