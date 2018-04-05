@@ -1,4 +1,6 @@
 str = "Hello World"
-var p = str.replace (" ", " RETARD ")
-
-console.log ( p )
+function replRet (str){
+var p = str
+ return str.replace(" ", " RETARD ");
+}
+console.log ( replRet(str) )
