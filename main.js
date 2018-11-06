@@ -53,7 +53,7 @@ newArr.reduce(function(old, chr){
 
 
 
-console.log( most[0] + " ( "+most[1]+" раза )" );
+console.log( most[0] + " ( "+most[1]+" повторений )" );
 
 // task 4
 
